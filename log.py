@@ -2,6 +2,10 @@ import sys
 from datetime import datetime
 import time
 import pyttsx3
+import os
+
+if not os.path.exists("./logs") :
+    os.mkdir("./logs")
 
 old_out = sys.stdout
 
