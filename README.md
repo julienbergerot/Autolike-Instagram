@@ -37,3 +37,20 @@ Until it found 10 already liked pictures, it will keep on liking. You can add a 
 ```bash
 python autolike.py {max_number_of_likes}
 ```
+
+# Autofollow part
+
+This part find all your followers and followees. It simply store their username in a file, according to their category. If they are ghosts (follow but do not like), if you did not follow them back or if they did not follow you back.
+This will be store in a daily folder when you run 
+```bash
+python storeData.py
+```
+
+As for the pattern recognition, an another pattern is required to unfollow people. Just follow the *ipynb* file, and all is explained. You might also need to find the SEARCH,ENTER and CONFIRM position (the *mouse.py* file is here to help).
+
+Once this is done, you can run 
+```bash
+python find.py
+```
+
+***Becareful, this is a project done for fun but you may get banned from Instagram if you use it too much !***
