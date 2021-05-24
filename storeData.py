@@ -12,8 +12,8 @@ os.mkdir(str(date))
 L = instaloader.Instaloader()
 
 # Login or load session
-username = "username"
-password = "password"
+username = "juju_bergerot"
+password = "mayaopal"
 L.login(username, password)  # (login)
 
 # Obtain profile metadata

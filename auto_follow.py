@@ -80,5 +80,6 @@ pattern = np.array(Image.open("./data/pattern.png"))
 driver.get('https://www.instagram.com/?hl=fr')
 time.sleep(3)
 
-follow("rossgeller")
-follow("chandler_thegolden")
+if __name__ == '__main__':
+    follow("rossgeller")
+    follow("chandler_thegolden")
